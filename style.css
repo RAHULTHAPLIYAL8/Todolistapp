@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+  
+}
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(135deg,#153677,#4e085f);
+    padding:10px;
+
+}
+.todo h1  img{
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+}
+.todo
+{
+    width: 100%;
+    max-width: 540px;
+    background-color:white;
+    padding: 40px 30px 70px;
+    margin:100px auto 20px;
+    border-radius: 10px;
+}
+.todo h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeff0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+input
+{
+    flex:1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size:15px;
+}
+.search button
+{
+    border: none;
+    outline: none;
+    background:orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.list ul li
+{
+    list-style: none;
+    font-size:17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+}
+.list ul li::before
+{
+    content:"";
+    position: absolute;
+    height:25px;
+    width: 25px;
+    background-image: url(/bubble.png);
+    background-size:cover;
+    background-position: center;
+    left:15px;
+    top:10px;
+
+}
+.container .list .right
+{
+   text-decoration: line-through;
+   color:#555;
+}
+.container .list .right::before
+{
+   
+    background-image: url(/redbubble.png);
+   
+}
+.list ul li span
+{
+ position: absolute;
+ right: 0px;
+ top:5px;
+ width: 40px;
+ height: 40px;
+ font-size: 22px;
+ color:#555;
+ line-height: 40px;
+ text-align: center;
+}
+.list ul li span:hover
+{
+    color: black;
+}
+
+
+
+
