@@ -10,7 +10,7 @@
 {
     width: 100%;
     min-height: 100vh;
-    background:linear-gradient(135deg,#153677,#4e085f);
+    background:linear-gradient(135deg,black,white);
     padding:10px;
 
 }
@@ -46,7 +46,7 @@
 input
 {
     flex:1;
-    border: none;
+    border: none; 
     outline: none;
     background: transparent;
     padding: 10px;
@@ -56,7 +56,7 @@ input
 {
     border: none;
     outline: none;
-    background:orange;
+    background:red;
     padding: 10px 20px;
     border-radius: 20px;
     font-size: 20px;
@@ -112,6 +112,13 @@ input
 .list ul li span:hover
 {
     color: black;
+}
+#owl
+{
+    position: relative;
+    width: 100px;
+    left: 28%;
+    bottom: -109px;
 }
 
 
